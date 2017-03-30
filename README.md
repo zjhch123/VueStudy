@@ -2,7 +2,7 @@
 
 > 最近需求变动很快啊…今天基于这个明天构建那个的。多写点东西沉淀一下知识，之后查阅起来会方便很多
 
-文章用到的代码，都可以在github上`clone`至本地，使用`npm install`安装依赖，使用`npm run build`打包后，双击`index.html`即可看到效果。
+文章用到的代码，都可以在[github](https://github.com/zjhch123/VueStudy/)上`clone`至本地，使用`npm install`安装依赖，使用`npm run build`打包后，双击`index.html`即可看到效果。
 
 ## 1. 起始语
 前端技术日新月异，这就导致很多我这样的初级前端三天两头琢磨新工具…上一篇文章[使用Webpack+React建立基于Ant Design的页面](https://blog.hduzplus.xyz/articles/2017/03/20/1490020310263.html)，就是因为项目组准备使用ant design来重构一个平台，于是我就研究了一把新技术。没想到的是连Ant Design的边都还没摸到，项目组又准备用新技术来重构了…这次要用的是基于[Vue](https://cn.vuejs.org/)的组件库[iView](https://www.iviewui.com/)。Vue大名鼎鼎，大家应该都知道。那iView是个什么东东呢？
