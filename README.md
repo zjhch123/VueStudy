@@ -6,9 +6,12 @@
 
 ## 1. 起始语
 前端技术日新月异，这就导致很多我这样的初级前端三天两头琢磨新工具…上一篇文章[使用Webpack+React建立基于Ant Design的页面](https://blog.hduzplus.xyz/articles/2017/03/20/1490020310263.html)，就是因为项目组准备使用ant design来重构一个平台，于是我就研究了一把新技术。没想到的是连Ant Design的边都还没摸到，项目组又准备用新技术来重构了…这次要用的是基于[Vue](https://cn.vuejs.org/)的组件库[iView](https://www.iviewui.com/)。Vue大名鼎鼎，大家应该都知道。那iView是个什么东东呢？
+
 ![](https://image.hduzplus.xyz/image/1490880118127.png)
+
 其实iView是Ant Design组件库的另一种实现版本啦，换汤不换药。
 就像孙悟空有七十二变，但是不管变成什么，他都是孙悟空。
+
 ![](https://image.hduzplus.xyz/image/1490880234444.png)
 
 ## 2. 构建
