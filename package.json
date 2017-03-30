@@ -1,8 +1,8 @@
 {
-  "name": "vueHW",
+  "name": "myapp",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "jquery.min.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack"
@@ -14,6 +14,7 @@
     "babel-core": "^6.24.0",
     "babel-loader": "^6.4.1",
     "babel-preset-es2015": "^6.24.0",
+    "jquery": "^3.2.1",
     "vue": "^2.2.6",
     "webpack": "^2.3.2"
   }

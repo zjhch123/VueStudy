@@ -4,7 +4,7 @@ module.exports = {
         filename: "bundle.js"
     },
     module: {
-        loaders: [
+        loaders:[
             {
                 test: /\.js$/,
                 exclude: "/node_modules/",
@@ -14,7 +14,7 @@ module.exports = {
     },
     resolve: {
         alias: {
-            'vue': 'vue/dist/vue.common.js'
+            'vue$': 'vue/dist/vue.common.js'
         }
     }
 }

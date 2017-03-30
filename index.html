@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Vue Example</title>
+<style>
+ul {
+  list-style: none;
+}
+ul li, ul {
+  margin: 0;
+  padding: 0;
+}
+</style>
+</head>
+<body>
+  <div id="app">
+      <h1>Vue App</h1>
+      <h2>Github Search</h2>
+      <input v-model="condition" placeholder="search condition"/>
+      <button @click="search">Search!</button>
+      <h4 v-if="resOK">Look at this!</h4>
+      <h4 v-if="searchIng">Loading...</h4>
+      <input v-model="filter" v-if="resOK" placeholder="filter"/>
+      <div v-if="resOK">
+        <ul>
+          <li v-for="(data, index) in filteredResult">
+            <a :href="data.clone_url" target="_blank"><h3>{{index + 1}}.&nbsp;{{data.name}}</h3></a>
+            <p>{{data.description}}</p>
+          </li>
+        </ul>
+        <button @click="reverseResult" v-if="resOK">Reverse</button>
+      </div>
+  </div>
+</body>
+<script src="bundle.js"></script>
+</html>
